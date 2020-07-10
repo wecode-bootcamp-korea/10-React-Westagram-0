@@ -1,0 +1,154 @@
+.padding_box {
+    display: flex;
+    justify-content: center;
+    margin: 0 20px 0 87.5px;
+    padding-top: 30px;
+    background-color: #fafafa;
+    flex-direction: column;
+}
+
+.main {
+    width: 600px;
+    height: 120px;
+    border: hidden;
+    margin-right: 28px;
+    margin-bottom: 20px;
+}
+
+.button_bar {
+    width: 600px;
+    height: 90px;
+    background-color: #ffffff;
+    margin-bottom: 24px;
+    padding-bottom: 16px;
+    border: 1px solid #dbdbdb;
+}
+
+.btn_bar_ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 598px;
+    padding:0 40px 0 0;
+}
+
+
+.ol_size {
+    width: 80px;
+    height: 122px;
+    padding: 4px;
+}
+
+.ol-div {
+    width: 60px;
+    height: 122px;
+    padding: 0 4px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.ol_img {
+    width: 56px;
+    height: 56px;
+    border-radius: 70%;
+    border: 1px solid red;
+}
+
+.ol_img_name {
+    color: #262626;
+    font-size: 12px;
+    text-align: center;
+}
+
+.feed {
+    width: 600px;
+    height: 835px;
+    border: 2px solid green;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contents {
+    width: 600px;
+    height: 600px;
+}
+
+
+.section_top {
+    width: 600px;
+    height: 40px;
+    padding: 0 16px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.section_bar {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.like {
+    width: 600px;
+    height: 18px;
+    margin-bottom: 8px;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+.id_contents {
+    width: 600px;
+    height: 135px;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+.id {
+    height: 18.4px;
+    width: 87.15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn {
+    width: 600px;
+    height: 18px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.comment {
+    width: 560px;
+    height: 32px;
+    box-sizing: border-box;
+}
+
+.comment_Input {
+    width: 540px;
+    height: 18px;
+    border-style: none;
+    outline: none;
+    background-color: #fafafa;
+}
+
+.comment_Push {
+    width: 50px;
+    height: 35px;
+    padding: 0;
+    font-size: 12px;
+    border: hidden;
+    background-color: rgba(0,0,0,0); 
+    color: skyblue; 
+    padding: 5px;
+}
+
+
+
