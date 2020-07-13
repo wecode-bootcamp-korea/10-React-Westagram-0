@@ -4,7 +4,7 @@ import "./MainRight.scss";
 class MainRight extends React.Component {
     render() {
         return (
-            <div>
+            <div className="center">
                 <div className="browser">
                     <div id="feeds">
                         <div id="main-right">
@@ -61,7 +61,7 @@ class MainRight extends React.Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>         
         )
     }
 }

@@ -4,7 +4,7 @@ import "./MainLeft.scss";
 class MainLeft extends React.Component {
     render() {
         return (
-            <div>
+            <div className="center">
                 <div className="browser">
                     <main>
                         <div>
@@ -15,7 +15,6 @@ class MainLeft extends React.Component {
                             </div>
                         </div>
                         <div id="feeds">
-
                             <article id="main-left">
                                 <div className="user">
                                     <img className="wecodeImg" alt="wecode" src="images/wecodecircle.png" />
@@ -59,7 +58,7 @@ class MainLeft extends React.Component {
                         </div>
                     </main>
                 </div>
-            </div>
+             </div>
         );
     }
 }

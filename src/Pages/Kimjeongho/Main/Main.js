@@ -5,16 +5,15 @@ import MainLeft from "./Components/MainLeft/MainLeft";
 import MainRight from "./Components/MainRight/MainRight";
 import { render } from "@testing-library/react";
 import { createRenderer } from "react-dom/test-utils";
-// import Main from "./Main"
 
 class Main extends React.Component {
   render() {
     return (
         <div>
-          <Nav />
+          <Nav />          
           <MainLeft />
-          <MainRight />
-        </div>
+          <MainRight />          
+        </div>    
      );
    }
 }
