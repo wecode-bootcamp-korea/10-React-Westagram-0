@@ -1,0 +1,93 @@
+body {
+    text-align: center;
+    
+    div {
+        text-align: left;
+        display: block;
+
+        .box {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -100px;
+            margin-left: -100px;
+            width: 200px;
+            height: 200px;
+        }
+
+        #main-right {
+            position: relative;
+            top: 35px;
+            display: flex;
+            justify-content: center;
+            margin-right: 800px;
+        }
+
+        .story-right {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .makeBorder {
+            border: 1px solid white;
+            width: 350px;
+            padding: 20px 10px 10px 0px;
+            margin: 70px 0px 5px 650px;
+            background-color: white;
+        }
+
+        .bind {
+            display: flex;
+            justify-content: space-between;
+            padding-right: 5px;
+        }
+
+        .wordGray {
+            margin-left: 25px;
+            color: gray;
+        }
+
+        .wordBlack {
+            margin-right: 3px;
+        }
+
+        .user {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            background-color: white;
+            width: 97%;
+        }
+
+        .circle2 {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            margin: 10px 15px 7px 50px;
+            position: relative;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            margin: 10px 15px 7px 20px;
+            position: relative;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        .userId {
+            margin-bottom: 0px;
+            display: flex;
+            margin-bottom: 0px;
+            display: flex;
+        }
+
+        .follow {
+            font-weight: bold;
+            color: #3c81f0;
+            position: absolute;
+            margin-left: 270px;
+        }
+    }
+}

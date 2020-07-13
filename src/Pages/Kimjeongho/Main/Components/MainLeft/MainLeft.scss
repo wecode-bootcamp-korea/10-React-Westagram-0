@@ -1,0 +1,135 @@
+.browser {
+	background-color: #f8f7fa;
+}
+
+#typeComment {
+	border-top: 1px solid #e6e6e8;
+	background-color: white;
+	input[type="text"] {
+		border-style: hidden;
+		font-size: medium;
+		padding: 15px;
+		box-sizing: border-box;
+		width: 88%;
+		color: gray;
+	}
+}
+
+button[type="submit"] {
+	float: right;
+	margin: 15px;
+	border-style: hidden;
+	color: #9dd8f8;
+	font-size: medium;
+	background-color: white;
+}
+
+div {
+	text-align: center;
+	display: block;
+	.commentUser {
+		padding-left: 15px;
+		margin-top: 5px;
+		font-weight: bold;
+	}
+	.commentMsg {
+		padding-left: 10px;
+	}
+}
+
+#main-left {
+	position: relative;
+	border: 1px solid white;
+	width: 630px;
+	top: 35px;
+	float: left;
+	padding-left: 10%;
+}
+
+#white1 {
+	position: absolute;
+	background-color: ghostwhite;
+	left: 2px;
+	margin-top: 20px;
+	margin-left: 900px;
+	display: flex;
+}
+
+.user {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	background-color: white;
+	width: 97%;
+}
+
+.wecodeImg {
+	border-radius: 50%;
+	width: 7%;
+	height: 7%;
+	margin: 10px 15px 7px 10px;
+}
+
+article {
+	display: block;
+}
+
+.bold {
+	font-weight: bold;
+	font-weight: bold;
+}
+
+.userId {
+	margin-bottom: 0px;
+	display: flex;
+}
+
+.threeDot {
+	width: 5%;
+	height: 5%;
+	float: right;
+	margin-right: 15px;
+	margin-top: 0px;
+	margin-left: 65%;
+}
+
+#wecodeMain {
+	width: 630px;
+	height: 650px;
+}
+
+.white {
+	background-color: white;
+	background-color: white;
+}
+
+.imgWecode {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.circle1 {
+	border-radius: 60%;
+	width: 8%;
+	height: 4%;
+	margin: 10px 15px 7px 8px;
+}
+
+.peopleLike {
+	width: 500%;
+}
+
+.commentTime {
+	padding: 3px 0px 7px 15px;
+	color: gray;
+	margin: 0px;
+}
+
+p {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
