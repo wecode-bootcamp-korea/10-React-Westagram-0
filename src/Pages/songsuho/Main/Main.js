@@ -3,6 +3,8 @@ import Nav from "./Components/Nav/Nav";
 import Feed from "./Components/Feed/Feed";
 import Mainright from "./Components/Mainright/Mainright";
 import "./Main.scss";
+import "../Styles/Common.scss"
+import "../Styles/Reset.scss"
 
 class Main extends React.Component {
     render() {
