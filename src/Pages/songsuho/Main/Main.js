@@ -7,6 +7,13 @@ import "../Styles/Common.scss"
 import "../Styles/Reset.scss"
 
 class Main extends React.Component {
+    constructor() {
+        
+    }
+
+
+
+
     render() {
         return (
             <div className="control">
