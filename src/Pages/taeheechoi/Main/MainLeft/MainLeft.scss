@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.mainLeft {
+    width: 610px;
+    border: 1px solid lightgray;
+
+    .feedHeader {
+        height: 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+        .feedHeaderPic {
+            width: 42px;
+            height: 42px;
+
+            img {
+                object-fit: contain;
+                max-width: 100%;
+                max-height: 100%;
+                border-radius: 100%;
+            }
+        }
+        .feedHeaderInfo {
+            width: 520px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            .threedots img {
+                width: 22px;
+                height: auto;
+            }
+        }
+    }
+
+    .feedPic img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+    }
+    
+    .feedIcons {
+        height: 30px;
+        padding: 0px 15px;
+        display: flex;
+        justify-content: space-between;
+
+        .icons {
+            width: 22px;
+            height: auto;
+        }
+        .iconsLeft {
+            width: 80px;
+            height: 22px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}

@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.mainRight {
+    width: 290px;
+    height: 800px;
+}
+.myMeta {
+    display: flex;
+    width: 100%;
+
+    .profilePic {
+        width: 50px;
+        margin-right: 12px;
+        border-radius: 50%;
+    }
+    .myId {
+        margin-top: 7px;
+    }
+}
+.suggestions {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.sugg {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.suggList {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+   
+    .list {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+        width: 100%;
+        height: 50px;
+
+        .profilePics {
+            width: 38px;
+            height: 38px;
+            margin-right: 12px;
+            border-radius: 50%;
+        }
+        .suggID {
+            margin-top: 7px;
+            font-size: 14px;
+    
+            .suggFollowers {
+                font-size: 12px;
+            }
+        }
+        .followButton {
+            padding: 0px;
+            color: blue;
+            background: none;
+            border: none;
+        }
+    }
+}
