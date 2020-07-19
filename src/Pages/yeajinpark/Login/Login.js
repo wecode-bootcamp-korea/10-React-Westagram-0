@@ -34,7 +34,7 @@ class Login extends React.Component {
         .then(res => {
             if (res.token) {
               localStorage.setItem('token', res.token); //setItem이라는 메소드: local storage 넣어줘라. 'token'이라는 (백엔드가 저장한) 키값의, res.token의 value
-              alert('로그인 성공하셨습니다.');
+              alert('로그인 성공하셨습니다');
               this.props.history.push('main'); //Route라는 부모 component를 가지고 오겠다. history라는 객체에 접근해서 메인 페이지 
             } else {
               alert('올바른 사용자가 아닙니다. 회원가입 먼저 해주세요.');
