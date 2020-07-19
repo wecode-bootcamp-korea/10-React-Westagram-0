@@ -11,7 +11,7 @@
 
 ### 적용 기술 및 기능 구현
 
-* 적용기술: React, Javascript, CSS, 및 HTML
+* 적용기술: React, React Route, SCSS, Javascript, CSS, 및 HTML
 * 기능구현: 로그인 버튼 활성화 및 메인페이지 댓글 추가 기능
 
 
