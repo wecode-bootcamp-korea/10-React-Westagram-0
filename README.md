@@ -1,68 +1,25 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Westagram Project 소개
 
-## Available Scripts
+* 인스타그램 로그인 및 메인페이지 클론 
 
-In the project directory, you can run:
+### 개발 인원 및 기간
 
-### `npm start`
+* 개발 기간: 2020/07/06 ~ 2020/07/17
+* 개발 인원: 프론트엔드 4명 
+* [프론트엔드 Github](https://github.com/wecode-bootcamp-korea/10-React-Westagram-0/blob/master/README.md)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### 적용 기술 및 기능 구현
 
-### `npm test`
+* 적용기술: React, React Route, SCSS, Javascript, CSS, 및 HTML
+* 기능구현: 로그인 버튼 활성화 및 메인페이지 댓글 추가 기능
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### 정리
+* 예상했던 것 보다 로그인 페이지 레이아웃을 완성하는 시간이 오래 걸림
+* 메인페이지의 레이아웃 및 기능구현을 완성하지 못한 것이 개인적으로 아쉬움
+* Precourse 기간 동안 학습했던 프로그램들을 실제 사이트에 적용시켜 봄
+* 프론트엔드와 백엔드를 연결해보는 시간과 REACT라는 새로운 프로그램을 배우는 좋은 기회가 됨
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
